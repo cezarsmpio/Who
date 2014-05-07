@@ -1,0 +1,202 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/**
+ * BODY
+ */
+* {
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+}
+
+body {
+	font-family: 'Kreon', sans-serif;
+	font-size: 18px;
+	color: #574c45;
+	background: #FFF;
+
+	-webkit-font-smoothing: antialiased;
+	font-smoothing: antialiased;
+}
+
+a {
+	text-decoration: none;
+}
+
+/**
+ * Modal
+ */
+.modal.ng-hide {
+	display: none;
+}
+
+.modal {
+	position: fixed;
+	background: #FFF;
+	width: 100%;
+	height: 100%;
+	top: 0;
+	left: 0;
+}
+
+/**
+ * Boxes
+ */
+.box-container {
+	overflow: hidden;
+}
+
+.box {
+	width: 25%;
+	height: 300px;
+	float: left;
+	color: #FFF;
+	position: relative;
+}
+
+.person-cover, .cover-bg, .cover-color {
+	position: absolute;
+	width: 100%;
+	height: 100%;
+}
+
+.cover-bg {
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center center;
+}
+
+.person-name, .person-desc {
+	position: absolute;
+	right: 0;
+	left: 0;
+	text-align: right;
+	padding: 0 5%;
+}
+
+.person-name {
+	bottom: 55px;
+	font-size: 48px;
+}
+
+.person-desc {
+	font-size: 18px;
+	bottom: 35px;
+}
+
+/**
+ * Destaque
+ */
+
+.destaque {
+	width: 50%;
+}
+
+.destaque .person-name {
+	font-size: 72px;
+}
+
+/**
+ * Box Middle
+ */
+.middle {
+	background: #574c45;
+	color: #FFF;
+	text-align: center;
+	padding-top: 95px;
+}
+
+.middle h1, .middle h2 {
+	text-align: center;
+}
+
+.middle h1 {
+	font-size: 65px;
+	margin-bottom: 5px;
+}
+.middle h2 {
+	font-size: 20px;
+	text-transform: uppercase;
+	color: #8d8784;
+	letter-spacing: 2px;
+}
+
+/**
+ * Footer
+ */
+.footer {
+	width: 100%;
+	padding: 40px 0;
+	background: #574c45;
+	text-align: center;
+}
+
+.footer p, .footer a {
+	color: #FFF;
+}
+
+/**
+ * Responsivo
+ */
+@media screen and (max-width: 1100px) {
+	.box {
+		width: 33.3%;
+	}
+
+	.destaque {
+		width: 66.6%;
+	}
+}
+
+@media screen and (max-width: 845px) {
+	.box, .destaque {
+		width: 50%;
+	}
+}
+
+@media screen and (max-width: 565px) {
+	.box, .destaque {
+		width: 100%;
+	}
+}

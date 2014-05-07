@@ -1,0 +1,26 @@
+{
+	"pessoas": [
+		{
+			"nome": "Cezar Luiz",
+			"subtitulo": "Meu nome não é John",
+			"idade": "21 anos",
+			"fotos": {
+				"destaque": "img/destaque.jpg",
+				"pequena": "img/pequena.jpg"
+			},
+			"cor": "rgba(222, 215, 205, .5)",
+			"markdown": "pessoas/cezar-luiz.md"
+		},
+		{
+			"nome": "Vitor Perez",
+			"subtitulo": "Sou da Bahia sim senhor!",
+			"idade": "21 anos",
+			"fotos": {
+				"destaque": "img/destaque.jpg",
+				"pequena": "img/pequena.jpg"
+			},
+			"cor": "rgba(100, 215, 205, .5)",
+			"markdown": "pessoas/cezar-luiz.md"
+		}
+	]
+}
