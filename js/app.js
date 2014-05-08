@@ -51,6 +51,8 @@ app.controller('ModalController', [
 			.html(markdown.makeHtml(r));
 
 		$scope.modal.on = true;
+
+		$window.scrollTo(0, 0);
 	});
 
 	$scope.disable = function () {
