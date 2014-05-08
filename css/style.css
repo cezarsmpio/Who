@@ -193,6 +193,19 @@ a {
 	float: left;
 	color: #FFF;
 	position: relative;
+	overflow: hidden;
+}
+
+.box:hover .person-cover {
+	-webkit-transform: scale(1.1);
+	-moz-transform: scale(1.1);
+	-ms-transform: scale(1.1);
+	-o-transform: scale(1.1);
+	transform: scale(1.1);
+}
+
+.person-cover {
+	transition: all .3s;
 }
 
 .person-cover, .cover-bg, .cover-color {
