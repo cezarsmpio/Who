@@ -97,6 +97,10 @@ a {
 	margin-bottom: 30px;
 }
 
+.modal-content p img {
+	margin-bottom: 0;
+}
+
 .modal-content h1 { font-size: 56px; line-height: 77px; }
 .modal-content h2 { font-size: 43px; line-height: 60px; }
 .modal-content h3 { font-size: 30px; line-height: 42px; }
