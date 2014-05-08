@@ -9,7 +9,8 @@
 				"pequena": "img/pequena.jpg"
 			},
 			"cor": "rgba(222, 215, 205, .5)",
-			"markdown": "pessoas/cezar-luiz.md"
+			"markdown": "pessoas/cezar-luiz.md",
+			"slug": "cezar-luiz"
 		},
 		{
 			"nome": "Vitor Perez",
@@ -20,7 +21,8 @@
 				"pequena": "img/pequena.jpg"
 			},
 			"cor": "rgba(100, 215, 205, .5)",
-			"markdown": "pessoas/cezar-luiz.md"
+			"markdown": "pessoas/cezar-luiz.md",
+			"slug": "vitor-perez"
 		}
 	]
 }
