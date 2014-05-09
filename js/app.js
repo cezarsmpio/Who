@@ -7,8 +7,12 @@ var app = angular
 				'ngSanitize',
 				'ngRoute']
 			)
-			.run(function () {
+			.run(function ($rootScope, $route) {
+				// For 300ms mobile tap
 				FastClick.attach(document.body);
+
+				// Save the active person click
+				$rootScope.active = {};
 			});
 
 /**
@@ -18,7 +22,8 @@ app.controller('WhoController', [
 		'$scope',
 		'$http',
 		'$window',
-		function($scope, $http, $window)
+		'$rootScope',
+		function($scope, $http, $window, $rootScope)
 {
 	// Get people
 	$scope.people = {};
@@ -27,15 +32,21 @@ app.controller('WhoController', [
 	$http.get('js/pessoas.json').success(function (r) {
 		$scope.people = r;
 	});
+
+	// Active person
+	$scope.activeItem = function (p) {
+		$rootScope.active = p;
+	};
 }]);
 
 app.controller('ModalController', [
 		'$scope',
 		'$http',
 		'$window',
-		'$routeParams',
+		'$route',
 		'$location',
-		function ($scope, $http, $window, $route, $location)
+		'$rootScope',
+		function ($scope, $http, $window, $route, $location, $rootScope)
 {
 
 	// Modal
@@ -43,9 +54,10 @@ app.controller('ModalController', [
 
 	// Open modal
 	var markdown = new $window.Showdown.converter(),
-		html = '';
+		html = '',
+		url = $rootScope.active.md || 'pessoas/' + $route.current.params.slug + '.md';
 
-	$http.get('pessoas/' + $route.slug + '.md', {cache: false}).success(function (r) {
+	$http.get(url, {cache: false}).success(function (r) {
 		angular
 			.element(document.querySelector('.modal-content'))
 			.html(markdown.makeHtml(r));
@@ -57,6 +69,7 @@ app.controller('ModalController', [
 
 	$scope.disable = function () {
 		$scope.modal.on = false;
+		$rootScope.active = {};
 		$location.path('/').replace();
 	}
 }]);
@@ -68,6 +81,10 @@ app.config(['$routeProvider', '$locationProvider', function ($routeProvider, $lo
 	$routeProvider
 		.when('/:slug', {
 			templateUrl: 'modal.html',
-			controller: 'ModalController'
+			controller: 'ModalController',
+			title: 'teste'
+		})
+		.otherwise({
+			redirectTo : '/'
 		});
 }]);

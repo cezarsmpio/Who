@@ -2,7 +2,7 @@
 <html lang="pt-br" ng-app="WhoApp">
 <head>
 	<meta charset="UTF-8">
-	<title>Who? Entrevistas | UXDEV</title>
+	<title>Who? {{ active.nome }} | UXDEV</title>
 	<meta name="viewport" content="width=device-width">
 	<!-- CSS -->
 	<link rel="stylesheet" href="css/style.css">
@@ -15,7 +15,7 @@
 			<h2>Entrevistas</h2>
 		</section>
 
-		<a href="#/{{ p.slug }}" class="box" ng-repeat="p in people.pessoas" ng-class="{destaque: $index == 0}" >
+		<a ng-href="#{{ p.slug }}" class="box" ng-repeat="p in people.pessoas" ng-class="{destaque: $index == 0}" ng-click="activeItem(p);">
 			<div class="person-cover">
 				<div class="cover-bg" style="background-image: url({{ p.fotos.destaque }});"></div>
 				<div class="cover-color" style="background-color: {{ p.cor }};"></div>
