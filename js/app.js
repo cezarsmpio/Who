@@ -2,9 +2,7 @@
  * App
  */
 var app = angular
-			.module('WhoApp', [
-				'ngSanitize',
-				'ngRoute']
+			.module('WhoApp', ['ngRoute']
 			)
 			.run(function ($rootScope, $route, $http, $window) {
 				// For 300ms mobile tap
