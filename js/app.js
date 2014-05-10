@@ -3,49 +3,60 @@
  */
 var app = angular
 			.module('WhoApp', [
-				'ngAnimate',
 				'ngSanitize',
 				'ngRoute']
 			)
-			.run(function () {
+			.run(function ($rootScope, $route, $http, $window) {
+				// For 300ms mobile tap
 				FastClick.attach(document.body);
+
+				// Save the active person click
+				$rootScope.pessoa = {};
+
+				$rootScope.$watch('pessoa', function () {
+					$rootScope.title = 'Who? ' + ($rootScope.pessoa.nome || 'Entrevistas') + ' | UXDEV';
+				});
+
+				// Get persons
+				$http.get('js/pessoas.json', {cache: false}).success(function (r) {
+					$rootScope.pessoas = r;
+				});
 			});
+
+/**
+ * Underscore
+ */
+app.factory('_', function () {
+	return window._;
+});
+
 
 /**
  * Controller
  */
-app.controller('WhoController', [
-		'$scope',
-		'$http',
-		'$window',
-		function($scope, $http, $window)
-{
-	// Get people
-	$scope.people = {};
 
-	// Get JSON
-	$http.get('js/pessoas.json').success(function (r) {
-		$scope.people = r;
-	});
-}]);
 
 app.controller('ModalController', [
 		'$scope',
 		'$http',
 		'$window',
-		'$routeParams',
+		'$route',
 		'$location',
-		function ($scope, $http, $window, $route, $location)
+		'$rootScope',
+		'_',
+		function ($scope, $http, $window, $route, $location, $rootScope, _)
 {
 
 	// Modal
 	$scope.modal = {};
 
-	// Open modal
-	var markdown = new $window.Showdown.converter(),
-		html = '';
+	// Pessoa
+	$rootScope.pessoa = _.findWhere($rootScope.pessoas, {slug: $route.current.params.slug});
 
-	$http.get('pessoas/' + $route.slug + '.md', {cache: false}).success(function (r) {
+	// Open modal
+	var markdown = new $window.Showdown.converter();
+
+	$http.get($rootScope.pessoa.markdown).success(function (r) {
 		angular
 			.element(document.querySelector('.modal-content'))
 			.html(markdown.makeHtml(r));
@@ -55,8 +66,10 @@ app.controller('ModalController', [
 		$window.scrollTo(0, 0);
 	});
 
+
 	$scope.disable = function () {
 		$scope.modal.on = false;
+		$rootScope.pessoa = {};
 		$location.path('/').replace();
 	}
 }]);
@@ -69,5 +82,8 @@ app.config(['$routeProvider', '$locationProvider', function ($routeProvider, $lo
 		.when('/:slug', {
 			templateUrl: 'modal.html',
 			controller: 'ModalController'
+		})
+		.otherwise({
+			redirectTo : '/'
 		});
 }]);

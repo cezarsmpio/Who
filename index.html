@@ -2,27 +2,27 @@
 <html lang="pt-br" ng-app="WhoApp">
 <head>
 	<meta charset="UTF-8">
-	<title>Who? Entrevistas | UXDEV</title>
+	<title ng-bind="title"></title>
 	<meta name="viewport" content="width=device-width">
 	<!-- CSS -->
 	<link rel="stylesheet" href="css/style.css">
 	<link href='http://fonts.googleapis.com/css?family=Kreon:400,700' rel='stylesheet' type='text/css'>
 </head>
 <body>
-	<div class="box-container" ng-controller="WhoController">
+	<div class="box-container">
 		<section class="box middle">
 			<h1>Who?</h1>
 			<h2>Entrevistas</h2>
 		</section>
 
-		<a href="#/{{ p.slug }}" class="box" ng-repeat="p in people.pessoas" ng-class="{destaque: $index == 0}" >
+		<a ng-href="#{{ p.slug }}" class="box" ng-repeat="p in pessoas" ng-class="{destaque: $index == 0}">
 			<div class="person-cover">
-				<div class="cover-bg" style="background-image: url({{ p.fotos.destaque }});"></div>
-				<div class="cover-color" style="background-color: {{ p.cor }};"></div>
+				<div class="cover-bg" ng-style="{'background-image': 'url({{ p.fotos.destaque }})'}"></div>
+				<div class="cover-color" ng-style="{'background-color': '{{ p.cor }}'};"></div>
 			</div>
 
-			<h2 class="person-name">{{ p.nome }}</h2>
-			<h3 class="person-desc">{{ p.subtitulo }}</h3>
+			<h2 class="person-name" ng-bind="p.nome"></h2>
+			<h3 class="person-desc" ng-bind="p.subtitulo"></h3>
 		</a>
 
 		<footer class="footer">
@@ -35,9 +35,9 @@
 
 	<!-- Scripts -->
 	<script src="//cdnjs.cloudflare.com/ajax/libs/angular.js/1.2.15/angular.min.js"></script>
-	<script src="//cdnjs.cloudflare.com/ajax/libs/angular.js/1.2.15/angular-animate.min.js"></script>
 	<script src="//cdnjs.cloudflare.com/ajax/libs/angular.js/1.2.15/angular-sanitize.min.js"></script>
 	<script src="//cdnjs.cloudflare.com/ajax/libs/angular.js/1.2.15/angular-route.min.js"></script>
+	<script src="//cdnjs.cloudflare.com/ajax/libs/underscore.js/1.6.0/underscore-min.js"></script>
 	<script src="//cdnjs.cloudflare.com/ajax/libs/showdown/0.3.1/showdown.min.js"></script>
 	<script src="//cdnjs.cloudflare.com/ajax/libs/fastclick/1.0.0/fastclick.min.js"></script>
 	<script src="js/app.js"></script>

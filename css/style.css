@@ -159,7 +159,7 @@ a {
 }
 
 .modal-close {
-	position: absolute;
+	position: fixed;
 	top: 30px;
 	right: 30px;
 	width: 40px;
@@ -238,19 +238,9 @@ a {
 .person-desc {
 	font-size: 18px;
 	bottom: 35px;
+	color: #ddd;
 }
 
-/**
- * Destaque
- */
-
-.destaque {
-	width: 50%;
-}
-
-.destaque .person-name {
-	font-size: 72px;
-}
 
 /**
  * Box Middle
@@ -278,6 +268,22 @@ a {
 }
 
 /**
+ * Destaque
+ */
+
+.destaque {
+	width: 50%;
+}
+
+.destaque .person-name {
+	font-size: 72px;
+}
+
+.destaque .person-desc {
+	font-size: 24px;
+}
+
+/**
  * Footer
  */
 .footer {
@@ -295,6 +301,16 @@ a {
 /**
  * Responsivo
  */
+@media screen and (min-width: 1500px) {
+	.modal-content {
+		width: 50%;
+	}
+}
+@media screen and (min-width: 1800px) {
+	.modal-content {
+		width: 40%;
+	}
+}
 @media screen and (max-width: 1100px) {
 	.box {
 		width: 33.3%;
