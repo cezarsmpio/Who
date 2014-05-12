@@ -2,42 +2,37 @@
  * App
  */
 var app = angular
-			.module('WhoApp', [
-				'ngAnimate',
-				'ngSanitize',
-				'ngRoute']
+			.module('WhoApp', ['ngRoute']
 			)
-			.run(function ($rootScope, $route) {
+			.run(function ($rootScope, $route, $http, $window) {
 				// For 300ms mobile tap
 				FastClick.attach(document.body);
 
 				// Save the active person click
-				$rootScope.active = {};
+				$rootScope.pessoa = {};
+
+				$rootScope.$watch('pessoa', function () {
+					$rootScope.title = 'Who? ' + ($rootScope.pessoa.nome || 'Entrevistas') + ' | UXDEV';
+				});
+
+				// Get persons
+				$http.get('js/pessoas.json', {cache: false}).success(function (r) {
+					$rootScope.pessoas = r;
+				});
 			});
+
+/**
+ * Underscore
+ */
+app.factory('_', function () {
+	return window._;
+});
+
 
 /**
  * Controller
  */
-app.controller('WhoController', [
-		'$scope',
-		'$http',
-		'$window',
-		'$rootScope',
-		function($scope, $http, $window, $rootScope)
-{
-	// Get people
-	$scope.people = {};
 
-	// Get JSON
-	$http.get('js/pessoas.json').success(function (r) {
-		$scope.people = r;
-	});
-
-	// Active person
-	$scope.activeItem = function (p) {
-		$rootScope.active = p;
-	};
-}]);
 
 app.controller('ModalController', [
 		'$scope',
@@ -46,18 +41,20 @@ app.controller('ModalController', [
 		'$route',
 		'$location',
 		'$rootScope',
-		function ($scope, $http, $window, $route, $location, $rootScope)
+		'_',
+		function ($scope, $http, $window, $route, $location, $rootScope, _)
 {
 
 	// Modal
 	$scope.modal = {};
 
-	// Open modal
-	var markdown = new $window.Showdown.converter(),
-		html = '',
-		url = $rootScope.active.md || 'pessoas/' + $route.current.params.slug + '.md';
+	// Pessoa
+	$rootScope.pessoa = _.findWhere($rootScope.pessoas, {slug: $route.current.params.slug});
 
-	$http.get(url, {cache: false}).success(function (r) {
+	// Open modal
+	var markdown = new $window.Showdown.converter();
+
+	$http.get($rootScope.pessoa.markdown).success(function (r) {
 		angular
 			.element(document.querySelector('.modal-content'))
 			.html(markdown.makeHtml(r));
@@ -67,9 +64,10 @@ app.controller('ModalController', [
 		$window.scrollTo(0, 0);
 	});
 
+
 	$scope.disable = function () {
 		$scope.modal.on = false;
-		$rootScope.active = {};
+		$rootScope.pessoa = {};
 		$location.path('/').replace();
 	}
 }]);
@@ -81,8 +79,7 @@ app.config(['$routeProvider', '$locationProvider', function ($routeProvider, $lo
 	$routeProvider
 		.when('/:slug', {
 			templateUrl: 'modal.html',
-			controller: 'ModalController',
-			title: 'teste'
+			controller: 'ModalController'
 		})
 		.otherwise({
 			redirectTo : '/'
