@@ -1,7 +1,0 @@
-UPDATE wp_posts SET guid = replace(guid, 'http://localhost/Itaipu/EducacaoFinanceira', 'http://agenciaimam.com.br/clientes/itaipu/portal_educacao/');
-UPDATE wp_posts SET post_content = replace(post_content, 'http://localhost/Itaipu/EducacaoFinanceira', 'http://agenciaimam.com.br/clientes/itaipu/portal_educacao/');
-UPDATE wp_links SET link_url = replace(link_url, 'http://localhost/Itaipu/EducacaoFinanceira', 'http://agenciaimam.com.br/clientes/itaipu/portal_educacao/');
-UPDATE wp_links SET link_image = replace(link_image, 'http://localhost/Itaipu/EducacaoFinanceira', 'http://agenciaimam.com.br/clientes/itaipu/portal_educacao/');
-UPDATE wp_postmeta SET meta_value = replace(meta_value, 'http://localhost/Itaipu/EducacaoFinanceira', 'http://agenciaimam.com.br/clientes/itaipu/portal_educacao/');
-UPDATE wp_usermeta SET meta_value = replace(meta_value, 'http://localhost/Itaipu/EducacaoFinanceira', 'http://agenciaimam.com.br/clientes/itaipu/portal_educacao/');
-UPDATE wp_options SET option_value = replace(option_value, 'http://localhost/Itaipu/EducacaoFinanceira', 'http://agenciaimam.com.br/clientes/itaipu/portal_educacao/');
