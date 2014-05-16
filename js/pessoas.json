@@ -1,24 +1,11 @@
 [{
-	"nome": "Cezar Luiz",
-	"subtitulo": "Meu nome não é John",
-	"idade": "21 anos",
+	"nome": "Bernard de Luna",
+	"subtitulo": "adora criar produtos sexy; ele é sexy também",
 	"fotos": {
-		"destaque": "img/destaque.jpg",
-		"pequena": "img/pequena.jpg"
+		"destaque": "img/bernard-de-luna/destaque.jpg",
+		"pequena": "img/bernard-de-luna/pequena.jpg"
 	},
-	"cor": "rgba(222, 215, 205, .5)",
-	"markdown": "pessoas/cezar-luiz.md",
-	"slug": "cezar-luiz"
-},
-{
-	"nome": "Vitor Perez",
-	"subtitulo": "Sou da Bahia sim senhor!",
-	"idade": "27 anos",
-	"fotos": {
-		"destaque": "img/destaque.jpg",
-		"pequena": "img/pequena.jpg"
-	},
-	"cor": "rgba(100, 215, 205, .5)",
-	"markdown": "pessoas/vitor-perez.md",
-	"slug": "vitor-perez"
+	"cor": "rgba(55, 64, 64, .5)",
+	"markdown": "pessoas/bernard-de-luna.md",
+	"slug": "bernard-de-luna"
 }]

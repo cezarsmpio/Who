@@ -158,6 +158,41 @@ a {
 	line-height: 33px;
 }
 
+.modal-content blockquote p:last-child {
+	margin-bottom: 0;
+}
+
+.modal-content em {
+	font-style: italic;
+}
+
+.modal-content strong {
+	font-weight: 700;
+}
+
+.modal-content a {
+	color: #574C45;
+	font-weight: 700;
+}
+
+.modal-content a:hover {
+	text-decoration: underline;
+}
+
+.modal-content small {
+	color: #a7958a;
+	font-size: 14px;
+}
+
+.modal-content hr {
+	border: 0;
+	height: 1px;
+	width: 110%;
+	margin-left: -5%;
+	background: #a7958a;
+	opacity: .5;
+}
+
 .modal-close {
 	position: fixed;
 	top: 30px;

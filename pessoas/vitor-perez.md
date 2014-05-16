@@ -1,5 +1,0 @@
-# Vitor Perez
-
-Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eos, ullam debitis explicabo! At, dolores blanditiis eos qui culpa odit deleniti eaque laboriosam molestias sapiente vero nobis illum ut consectetur porro dolore tempora! Esse, quod, expedita, quibusdam, omnis nesciunt quae temporibus veniam itaque aperiam laudantium beatae non aut natus ipsam atque inventore fuga dicta tempore dignissimos velit eius ipsum dolorem tempora obcaecati reiciendis incidunt officiis sint qui iste ullam distinctio deserunt vitae sed numquam repellendus iure voluptatem. Voluptatum, culpa, beatae autem in facilis ea hic vel quam illum a sunt non quisquam ipsam debitis assumenda exercitationem animi officiis expedita laudantium fuga!
-
-![Vitor](http://goyalman.files.wordpress.com/2013/10/user-experience3.png)
