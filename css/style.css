@@ -257,22 +257,21 @@ a {
 	background-position: center center;
 }
 
-.person-name, .person-desc {
+.person {
 	position: absolute;
 	right: 0;
 	left: 0;
 	text-align: right;
 	padding: 0 5%;
+	bottom: 35px;
 }
 
 .person-name {
-	bottom: 55px;
 	font-size: 48px;
 }
 
 .person-desc {
 	font-size: 18px;
-	bottom: 35px;
 	color: #ddd;
 }
 
