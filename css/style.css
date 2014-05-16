@@ -232,15 +232,21 @@ a {
 }
 
 @media screen and (min-width: 1200px) {
-	.box:hover .person-cover {
+	.box:hover .cover-bg {
 		-webkit-transform: scale(1.1);
 		-moz-transform: scale(1.1);
 		-ms-transform: scale(1.1);
 		-o-transform: scale(1.1);
 		transform: scale(1.1);
+
+		-webkit-filter: brightness(1.2);
 	}
 
-	.person-cover {
+	.box:hover .cover-color {
+		background: rgba(0, 0, 0, 0.3) !important;
+	}
+
+	.cover-bg, .cover-color {
 		transition: all .3s;
 	}
 }
