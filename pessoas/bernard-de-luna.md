@@ -50,6 +50,6 @@ Por isso eu procuro ser correto com as pessoas, não me importa quantos commits 
 
 ### Para fechar, em mais dos seus 10 anos de experiência, que conselho você deixa para os leitores?
 
-> Ousadia e Alegrida — Thiaguinho.
+> Ousadia e Alegria — Thiaguinho.
 
 Não tenham medo de errar, não tenham medo de desfocar, não tenham medo de as vezes não acreditar em vocês mesmos. Isso tudo vai acontecer e fará você uma pessoa melhor e mais forte. Só nunca abra mão do seu caráter, da sua índole, de ser uma pessoa de bom coração, focada SEMPRE em construir, nunca em destruir.
