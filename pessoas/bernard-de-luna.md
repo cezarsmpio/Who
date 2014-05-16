@@ -16,7 +16,7 @@ O desenvolvedor ou qualquer outro profissional que ganha a vida apenas como free
 
 ### Se acessarmos o seu site, Twitter, Linkedin, Github, podemos ver que você está envolvido em muitos projetos, palestras, ministrando workshops, dando aulas e mesmo assim conseguindo curtir sua vida pessoal. Qual o segredo para conseguir separar essas coisas?
 
-Acredito que o segredo é ter tesão em tudo que se faz. Todo mundo que assiste uma palestra minha, _workshop_ ou até mesmo bate-papo em um corredor percebe que eu tenho muita alegria em fazer o que faço, isso me faz ter energia para tudo isso e muito mais. Porém, pela sanidade eu tive que criar algumas regras, como não visitar fóruns nem comunidades voltadas para trabalho no fim de semana, não responder nenhuma dúvida ou algo relacionado a trabalho depois das 20h, feriado ou fim de semana.
+Acredito que o segredo é ter tesão em tudo que se faz. Todo mundo que assiste uma palestra minha, _workshop_ ou até mesmo bate-papo em um corredor percebe que eu tenho muita alegria em fazer o que faço, isso me faz ter energia para tudo isso e muito mais. Porém, pela sanidade eu tive que criar algumas regras, como não visitar fóruns nem comunidades voltadas para trabalho nos finais de semana, não responder nenhuma dúvida ou algo relacionado a trabalho depois das 20h, feriado ou fim de semana.
 
 ![Bernard e seus amigos curtindo a vida](http://www.uxdev.com.br/who/img/bernard-de-luna/1.jpg)
 
