@@ -30,7 +30,7 @@ Hoje eu me reconheço como **especialista em projetos sexy**, pela visão holís
 
 ### Qual a sua opinião sobre o mercado de front-end no Brasil? Em seus mais de 10 anos de experiência na área, como você enxerga as mudanças na área em nosso país?
 
-**Nossa!** Enxergo tantas mudanças que dói até a cabeça. Vejo muitas conquistas, criamos uma comunidade, criamos eventos de front-end por TODO O BRASIL! Ficamos famosos no exterior, palestramos em eventos que os brasileiros mal sabiam que existiam, escrevemos artigos nos principais sites de artigos web do mundo, colocamos experimentos nos principais labs do mundo, fiizemos acontecer o que muitos achavam ser impossível.
+**Nossa!** Enxergo tantas mudanças que dói até a cabeça. Vejo muitas conquistas, criamos uma comunidade, criamos eventos de front-end por TODO O BRASIL! Ficamos famosos no exterior, palestramos em eventos que os brasileiros mal sabiam que existiam, escrevemos artigos nos principais sites de artigos web do mundo, colocamos experimentos nos principais labs do mundo, fizemos acontecer o que muitos achavam ser impossível.
 
 ![Palestras em São Francisco](http://www.uxdev.com.br/who/img/bernard-de-luna/2.jpg)
 
