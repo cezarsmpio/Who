@@ -7,7 +7,7 @@ As entrevistas serão mensais, onde cada mês teremos um nome diferente comentan
 
 Pessoas que foram ou serão entrevistadas:
 
-* Bernard de Luna
+* [Bernard de Luna](http://uxdev.com.br/who/#/bernard-de-luna)
 * Zeno Rocha
 * Érico Fileno
 * Jean Nascimento (Suissa)
