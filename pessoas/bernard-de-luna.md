@@ -2,6 +2,8 @@
 
 Mora no Rio de Janeiro, mas já viajou pelo Brasil e pelo mundo palestrando e ministrando workshops. É Head de Produto pelo Videolog.tv, empreendedor, desenvolvedor front-end e está envolvido em vários projetos open source de sucesso.
 
+![Bernard de Luna](img/bernard-de-luna/destaque.jpg)
+
 ### Bernard, você diz que gosta de criar coisas sexy e pede para as pessoas criarem coisas sexy também. Por que você acha que isso conquista os usuários? Como isso pode agregar valor ao produto?
 
 Acredito na verdade que fazer algo **SEXY** significa exatamente agregar valor ao produto através da conquista dos usuários. Pensar na experiência ao invés de só pensar em produto, pensar em benefícios ao invés de só pensar em _features_. Criar algo sexy é criar um produto memorável, ou um _purple cow_ como diz **Seth Godin** em seu _best seller_, onde seu produto deixa de ser um _commodity_ e passa a fazer parte da vida do seu usuário, até mesmo dos empregados. Através da cultura do sexy, a empresa passa a não perder tempo com coisas e discussões estúpidas e sim gastando energia com **"e se..."** e **"isso é sexy?"**.
