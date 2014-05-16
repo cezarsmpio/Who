@@ -2,7 +2,7 @@
 
 Mora no Rio de Janeiro, mas já viajou pelo Brasil e pelo mundo palestrando e ministrando workshops. É Head de Produto pelo Videolog.tv, empreendedor, desenvolvedor front-end e está envolvido em vários projetos open source de sucesso.
 
-![Bernard de Luna](img/bernard-de-luna/destaque.jpg)
+![Bernard de Luna](http://www.uxdev.com.br/who/img/bernard-de-luna/destaque.jpg)
 
 ### Bernard, você diz que gosta de criar coisas sexy e pede para as pessoas criarem coisas sexy também. Por que você acha que isso conquista os usuários? Como isso pode agregar valor ao produto?
 
@@ -18,7 +18,7 @@ O desenvolvedor ou qualquer outro profissional que ganha a vida apenas como free
 
 Acredito que o segredo é ter tesão em tudo que se faz. Todo mundo que assiste uma palestra minha, _workshop_ ou até mesmo bate-papo em um corredor percebe que eu tenho muita alegria em fazer o que faço, isso me faz ter energia para tudo isso e muito mais. Porém, pela sanidade eu tive que criar algumas regras, como não visitar forum nem comunidade voltadas para trabalho fim de semana, não responder nenhuma dúvida ou algo relacionado a trabalho depois das 20h, feriado ou fim de semana.
 
-![Bernard e seus amigos curtindo a vida](img/bernard-de-luna/1.jpg)
+![Bernard e seus amigos curtindo a vida](http://www.uxdev.com.br/who/img/bernard-de-luna/1.jpg)
 
 Isso foi bom para saber separar e até mesmo mostrar para as pessoas que eu tenho vida pessoal, e que eles precisam se planejar com isso se quiserem algo de mim nesse sentido. Mas aqueles que cumprem essas regras sabem que eu sempre dou 100% de atenção e ajudo no que posso.
 
@@ -32,7 +32,7 @@ Hoje eu me reconheço como **especialista em projetos sexy**, pela visão holís
 
 **Nossa!** Enxergo tantas mudanças que dói até a cabeça. Vejo muitas conquistas, criamos uma comunidade, criamos eventos de front-end por TODO O BRASIL! Ficamos famosos no exterior, palestramos em eventos que os brasileiros mal sabiam que existiam, escrevemos artigos nos principais sites de artigos web do mundo, colocamos experimentos nos principais labs do mundo, fiizemos acontecer o que muitos achavam ser impossível.
 
-![Palestras em São Francisco](img/bernard-de-luna/2.jpg)
+![Palestras em São Francisco](http://www.uxdev.com.br/who/img/bernard-de-luna/2.jpg)
 
 Por outro lado, creio que aquecemos muito antes de amadurecermos, por exemplo, você vê tanta oportunidade que o salário de um profissional junior cru é o de um pleno, dificultando muito achar um profissional adequado. Por outro lado, isso permitiu as empresas começarem a olhar mais para o resto do Brasil, principalmente o norte e nordeste, que tem profissionais excelentes, além de pessoas maravilhosas, que mesmo sendo pleno ou sênior, ganhavam valores aquém por não estar no eixo Rio-São Paulo, simplesmente com a máxima absurda de "aqui a realidade é outra". Autalmente e a partir de agora o assédio mudou tudo, hoje você um Brasil mais esperto, pois as próprias empresas de fora estão vindo para cá e levando nossos talentos, forçando o sudeste buscar talentos do nordeste, que fará as empresas de lá se reinventarem e valorizarem mais seus funcionários, gerando energia.
 
@@ -42,7 +42,7 @@ Temos muitos profissionais novos e bons nascendo na área, desde que as pessoas 
 
 Não vou citar projetos, vou citar pessoas. Outro dia recebi uma ligação de um cara chamado Maurício, demorei 3 segundos para identificar que era o Maujor, o dinossauro da web no Brasil, e pensar que meu ídolo como pessoa e como mestre virou um amigo, que honra. Um dia eu quando ainda morava em São Paulo, vieram 3 amigos dormir na minha casa, no meio da noite parei para refletir que eu tinha dormindo na minha sala Zeno Rocha, Ciro Nunes e Leo Beto, que bacana estar dividindo um momento com pessoas tão talentosas e tão bondosas. Falo algumas vezes por semana com meu amigo Leo Balter, que para mim é uma das pessoas mais pragmáticas de JS que já conheci, mas independente disso, é um amigo incrível que me liga para bater papo. Você ter a mãe do Giovanni Keppelen me ligar antes de viajarmos para São Francisco falando que estava tranquila porque sabia que eu estava junto dele. Trocar mensagens com o meu amigo Juarez, que ficou meses morando fora, e saber que o carinho é o mesmo e que ele está compartilhando sua felicidade comigo, isso tudo é **MUITO LINDO**.
 
-![Evento com pessoas incríveis](img/bernard-de-luna/3.jpg)
+![Evento com pessoas incríveis](http://www.uxdev.com.br/who/img/bernard-de-luna/3.jpg)
 
 Eu chegar em Maceió, Aracajú, Salvador, Recife e tantos outros lugares e dezenas de jovens vem falar com você contando o que mudou em suas vidas com ajudas minhas, ou até comemorando vitórias minhas como se fossem as deles. Isso é o melhor do mundo. Não tem projeto, código, ferramenta, framework ou linguagem que chegue perto disso.
 
