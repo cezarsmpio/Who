@@ -1,6 +1,6 @@
 # Jean Carlo Nascimento
 
-Também conhecido como Suissa, é professor, evangelista JavaScript, NodeJS, MongoDB e Angular. Se considera desenvoledor nômade. Tem um [blog](http://nomadev.com.br/) onde escreve sobre desenvolvimento. Colabora muito com [projetos open source](https://github.com/suissa).
+Também conhecido como Suissa, é professor, evangelista JavaScript, NodeJS, MongoDB e Angular. Se considera desenvoledor nômade. Tem um [blog](http://nomadev.com.br/) onde escreve sobre desenvolvimento web. Colabora muito com [projetos open source](https://github.com/suissa).
 
 ![Jean Carlo Nascimento - O Suissa](img/jean-nascimento/destaque.jpg)
 
