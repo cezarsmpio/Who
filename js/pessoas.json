@@ -1,4 +1,15 @@
 [{
+	"nome": "Jean Nascimento",
+	"subtitulo": "também conhecido como Suíssa; ama JS",
+	"fotos": {
+		"destaque": "img/jean-nascimento/destaque.jpg",
+		"pequena": "img/jean-nascimento/pequena.jpg"
+	},
+	"cor": "rgba(100, 100, 100, .5)",
+	"markdown": "pessoas/suissa.md",
+	"slug": "jean-nascimento-suissa"
+},
+{
 	"nome": "Bernard de Luna",
 	"subtitulo": "adora criar produtos sexy; ele é sexy também",
 	"fotos": {
